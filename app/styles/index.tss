@@ -1,0 +1,64 @@
+".container": {
+	backgroundColor: "white",
+	layout: "vertical",
+	width: Ti.UI.FILL,
+	height: Ti.UI.FILL
+}
+
+".accountInfo": {
+	width: Ti.UI.FILL,
+	height: 40
+}
+
+"ListView": {
+	backgroundColor: "#EEE"
+}
+
+"ListItem": {
+	width: Ti.UI.FILL,
+	height: 80,
+	backgroundColor: "#EEE"
+}
+
+".row": {
+	left: 25,
+	right: 25,
+	height: Ti.UI.FILL
+}
+
+"Label": {
+	width: Ti.UI.SIZE,
+    textAlign: 'left',
+	color: "#000",
+}
+
+".name": {
+	height: 20,
+	top: 0,
+	left: 0,
+    font: {
+        fontWeight: "bold",
+        fontSize: 14
+    }
+}
+
+".iban": {
+	height: 20,
+	top: 20,
+	left: 0
+}
+
+".amount": {
+	height: 20,
+	top: 40,
+	left: 0
+}
+
+".date": {
+	height: 20,
+	top: 60,
+	left: 0,
+    font: {
+        fontSize: 11
+    }
+}

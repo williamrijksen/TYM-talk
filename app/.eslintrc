@@ -1,0 +1,15 @@
+{
+  "extends": [
+    "airbnb-base/legacy",
+    "../.eslintrc"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 5,
+    "sourceType": "script",
+    "ecmaFeatures": {},
+  },
+  "rules": {
+    "global-require": 0,
+    "func-names": 0
+  }
+}

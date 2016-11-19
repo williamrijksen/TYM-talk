@@ -1,0 +1,30 @@
+<Alloy>
+	<Collection id="listConnection" src="transaction" instance="true" />
+	<Window class="container">
+		<ActionBar platform="android" title="Testing your medals" />
+		<Menu>
+			<MenuItem platform="android" title="Add transaction" onClick="addTransation" />
+			<MenuItem platform="android" title="Get salary" onClick="getSalary" />
+			<MenuItem platform="android" title="Clear" onClick="clear" />
+		</Menu>
+		<View class="accountInfo">
+			<Label text="Balance: {$.listConnection.balance} ({$.listConnection.count})" />
+		</View>
+		<ListView defaultItemTemplate="transaction">
+			<Templates>
+				<ItemTemplate name="transaction">
+					<View class="row">
+						<Label bindId="name" class="name" />
+						<Label bindId="ibanCaps" class="iban" />
+						<Label bindId="amountString" class="amount" />
+						<Label bindId="date" class="date" />
+					</View>
+				</ItemTemplate>
+			</Templates>
+
+			<ListSection dataCollection="$.listConnection" transform="transform">
+				<ListItem ibanCaps:text="{ibanCaps}" name:text="{name}" amountString:text="{amountString}" date:text="{createdFormatted}" />
+			</ListSection>
+		</ListView>
+	</Window>
+</Alloy>

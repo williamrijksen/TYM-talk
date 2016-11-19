@@ -1,0 +1,12 @@
+# node_modules ignored by default
+
+# Ignore task runners
+
+# Ignore external code
+app/vendor/**/*.js
+app/widgets/**/*.js
+modules/**/*.js
+plugins/**/*.js
+
+Resources
+build
