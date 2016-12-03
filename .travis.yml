@@ -2,6 +2,10 @@ language: node_js
 node_js:
   - "4.6.1"
 
+before_install:
+  - echo 'Europe/Amsterdam' | sudo tee /etc/timezone
+  - sudo dpkg-reconfigure --frontend noninteractive tzdata
+
 cache:
   directories:
     - node_modules
