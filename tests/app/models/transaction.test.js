@@ -146,7 +146,7 @@ describe('transaction collection', () => {
       collection = new Collection();
     assert.equal(collection.getBalance(), 0);
   });
-
+  //
   it('getBalance is -100 with one depreciation of 1 euro', () => {
     const Collection = getTransactionCollection(),
       collection = new Collection([{

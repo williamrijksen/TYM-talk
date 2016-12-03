@@ -1,0 +1,7 @@
+<Alloy>
+	<Window>
+		<View class="container">
+			<Label text="Scanning..." />
+		</View>
+	</Window>
+</Alloy>

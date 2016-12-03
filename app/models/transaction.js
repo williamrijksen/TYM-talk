@@ -7,7 +7,7 @@ var _ = require('alloy/underscore'),
         return '€ ' + parseFloat(amount / 100).toFixed(2).replace('.', ',');
     },
     isBlank = function (str) {
-        return !!(str||'').match(/^\s*$/);
+        return !!(str || '').match(/^\s*$/);
     };
 
 exports.definition = {

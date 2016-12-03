@@ -2,12 +2,9 @@
 function addTransation() {
     'use strict';
 
-    $.listConnection.create({
-        name: 'Test payment',
-        iban: 'BE68539007547034',
-        amount: -100,
-        description: 'Payment for Maikel'
-    });
+    Alloy.createController('scan', {
+        listConnection: $.listConnection
+    }).getView().open();
 }
 
 function getSalary() {
