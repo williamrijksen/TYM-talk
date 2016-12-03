@@ -1,4 +1,4 @@
-# Testing your metals talk
+# Testing your metals talk [![Build Status](https://travis-ci.org/williamrijksen/testing-your-metals-talk.svg?branch=master)](https://travis-ci.org/williamrijksen/testing-your-metals-talk)
 
 ### Features
 - [x] Check your bank balance
