@@ -1,4 +1,4 @@
-# Testing your metal talk [![Build Status](https://travis-ci.org/williamrijksen/TYM.svg?branch=master)](https://travis-ci.org/williamrijksen/TYM-talk)
+# Testing your metal talk [![Build Status](https://travis-ci.org/williamrijksen/TYM-talk.svg?branch=master)](https://travis-ci.org/williamrijksen/TYM-talk)
 
 Belongs to these slides: https://speakerdeck.com/williamrijksen/making-sure-your-metal-doesnt-break.
 
