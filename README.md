@@ -1,4 +1,6 @@
-# Testing your metals talk [![Build Status](https://travis-ci.org/williamrijksen/testing-your-metals-talk.svg?branch=master)](https://travis-ci.org/williamrijksen/testing-your-metals-talk)
+# Testing your metals talk [![Build Status](https://travis-ci.org/williamrijksen/TYM.svg?branch=master)](https://travis-ci.org/williamrijksen/TYM-talk)
+
+Belongs to these slides: https://speakerdeck.com/williamrijksen/making-sure-your-metal-doesnt-break.
 
 ### Features
 - [x] Check your bank balance
@@ -11,7 +13,7 @@
 
 1. Clone the repository:
 
-		git clone https://github.com/williamrijksen/testing-your-metals
+		git clone https://github.com/williamrijksen/TYM-talk
 
 1. Install dependencies:
 
